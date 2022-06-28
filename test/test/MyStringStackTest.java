@@ -11,7 +11,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import stack.MyStringStack;
-
+MyStringStack stack = new MyStringStack();
+stack.push (s1);
+assertTrue (stack.isEmpty());
 
 public class MyStringStackTest extends TestCase {
 	private String s1, s2;
